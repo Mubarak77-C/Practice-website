@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Vampiro One', cursive;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    background-image: url("bg12.jpg");
+    background-attachment: fixed;
+    opacity: 0.8;
+    z-index: -1;
+    position: absolute;
+    content: "";
+    /* background-color:gray; */
+   max-width: 100%;
+   height: 328px;
+   opacity: 0.8;
+
+}
+
+
+.text{
+
+/* background-color: red;  */
+margin: 58px 132px;
+height: 154px;
+padding: 32px 261px;
+/* display: flex; */
+/* margin-top: 0; */
+text-align: center;
+padding-top: 55px;
+font-size: 24px;
+/* text-size-adjust: 33px; */
+font-style: italic;
+/* font: message-box; */
+border: 15px solid green;
+border-right: dashed;
+border-radius: 45px;
+border-left: hidden;
+border-bottom-width: medium;
+}
+.text h1,p{
+    color:wheat;
+  
+}
+
+#navbar{
+    position: fixed;
+   display: flex;
+   align-items: center;
+    /* background-color:rgb(68, 131, 68); */
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 6px 38px;
+    border: 4px solid rgb(128, 0, 90);
+    border-radius: 20px;
+    border-color: turquoise;
+    cursor: grab;
+    margin: 10px 28px;
+     background-color: brown; 
+}
+#navbar ul li a:hover{
+    color: red;
+
+}
+#navbar ul li a:active{
+    color:yellow;
+
+}
+#navbar ul li a:blank{
+    color:purple;
+
+}
+
+/* section */
+#section{
+   width:100%;
+   background:url("bg12.jpg");
+    background-size: cover;
+        background-attachment: fixed;
+        opacity: 0.8;
+   top: 363px;
+    position: absolute;
+
+}
+.section-container{
+    display:flex;
+    padding: 4px 433px;
+    /* margin: 50px 90px;
+    padding: 8px 16px;
+    text-align: center; */
+}
+.col-3{
+    width: 50%;
+    }
+
+    .txt{
+        color: white;
+        /* font-weight: 300; */
+        text-align: center;
+        border: 2px solid gold;
+        border-radius: 10px;
+        font-size: 17px;
+    }
+
+    /* contacts */
+    .contact{
+        background: url(bg12.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        top: 81%;
+        left: 25%;
+        position: absolute;
+        width: 50%;
+        padding: 2px 2px;
+        margin: 2px 2px;
+        border: 10px solid darkred;
+        height: 68%;
+        border-radius: 40px;
+    }
+    .contact h1{
+        text-align: center;
+        color:wheat;
+    }
+    .form-group {
+        text-align: center;
+        background-color: lightgray;
+        width: 50%;
+        margin: auto;
+        padding: 18px;
+        opacity: .9;
+        
+    }
+    .form-group input{
+        padding: 2px 16px;
+        margin: 5px 3px;
+        font-size: 18px;
+    }
+
+
+    .foot{
+        background:url("bg12.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 10px 0px;
+        text-align: center;
+        margin: 2px;
+        color: wheat;
+    }
