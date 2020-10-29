@@ -16,6 +16,7 @@ html{
     position: absolute;
     content: "";
     /* background-color:gray; */
+    width: 100%;    
    max-width: 100%;
    height: 328px;
    opacity: 0.8;
@@ -90,22 +91,23 @@ border-bottom-width: medium;
 
 /* section */
 #section{
-   width:100%;
-   background:url("bg12.jpg");
+    width: 100%;
+    background: url(bg12.jpg);
     background-size: cover;
-        background-attachment: fixed;
-        opacity: 0.8;
-   top: 363px;
+    background-attachment: fixed;
+    opacity: 0.8;
+    top: 363px;
     position: absolute;
+    height: 28%;
 
 }
-.section-container{
-    display:flex;
-    padding: 4px 433px;
-    /* margin: 50px 90px;
-    padding: 8px 16px;
-    text-align: center; */
-}
+
+    .section-container {
+        display: flex;
+        padding: 82px 361px;
+        margin: 0px 4px;
+    }
+
 .col-3{
     width: 50%;
     }
@@ -124,14 +126,14 @@ border-bottom-width: medium;
         background: url(bg12.jpg);
         background-size: cover;
         background-attachment: fixed;
-        top: 81%;
+        top: 90%;
         left: 25%;
         position: absolute;
         width: 50%;
         padding: 2px 2px;
         margin: 2px 2px;
         border: 10px solid darkred;
-        height: 68%;
+        height: 72%;
         border-radius: 40px;
     }
     .contact h1{
@@ -163,3 +165,131 @@ border-bottom-width: medium;
         margin: 2px;
         color: wheat;
     }
+    #feed{
+        background-color: aqua; 
+        /* position: fixed; */
+   display: flex;
+    }
+    .stick {
+        background-color: gray;
+        width: 5%;
+        /* display: flex; */
+        position: fixed;
+        top: 18%;
+        text-align: center;
+    }
+    .stick img{
+        width: 86%;
+        height: 65px;
+        margin: 3px 2px;
+        padding: 4px 3px;
+        display: block;
+    }
+    
+   
+    /* phone */
+    /* @media only screen and  (max-width:1430px){ */
+        /* body{
+            background-color: red;   
+        } */
+        /* navbar */
+        #navbar{
+                /* flex-direction: column; */
+    display: block;
+    /* flex-wrap: wrap; */
+    width: 2px 3px;
+    /* padding: 1px 1px; */
+    height: 83px;
+    /* margin: 2PX; */
+    /* background-color: gainsboro; */
+    width: 100%;
+        }
+       
+        #navbar ul{
+            flex-wrap: wrap-reverse;
+
+        }
+       
+        .text {
+            font-size: 20px;
+            padding: 30px 1px;
+            margin: 65px 34px;
+            font-size: medium;
+        }
+       
+        
+        /*  */
+        .col-3{
+            width: 100%;
+            position: relative;
+            }
+            /*  */
+            .container {
+                background-image: url(bg12.jpg);
+                background-attachment: fixed;
+                opacity: 0.8;
+                z-index: -1;
+                position: absolute;
+                content: "";
+                /* background-color: gray; */
+                max-width: 100%;
+                height: 360px;
+                opacity: 0.8;
+            }
+
+
+            /*  */
+
+            .section-container {
+                /* display: flex; */
+                
+                padding: 24px 10px;
+            }
+            
+            .form-group input {
+                padding: 2px 0px;
+                margin: 0px 0px;
+                font-size: 18px;
+                width: 100%;
+            }
+            /*  */
+            .contact{
+                top: 92%;
+                height: auto;
+                max-width: 100%;
+            }
+          
+
+            .stick{
+                width: 7%;
+            }
+            /* #foot {
+                
+                bottom: 0%;
+                position: absolute;
+            } */
+
+           
+/*  */
+@media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+    .contact{
+        top: 64%;
+        height: auto;
+    }
+  }
+  
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+    .contact{
+        top: 64%;
+        height: auto;
+    }
+  }
+  
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+    .contact{
+        top: 92%;
+    }
+  }
